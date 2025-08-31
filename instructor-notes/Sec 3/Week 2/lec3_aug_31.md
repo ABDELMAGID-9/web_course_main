@@ -65,10 +65,9 @@ Web Engineering & Development (SWE 363)
 
 
 Announcements 📣
-- Project Assignment #1 is due XXX
-- Demos structure 
-- Attendance starts from today
-- We will use Github Classroom
+- Project Assignment #1 is due This Thursday at 11:59 PM
+- New Demos structure (Github Classrooms)
+- Attendance starts from today 
 
 ---
 
