@@ -13,7 +13,7 @@ This course is designed to provide you with the conceptual and practical knowled
 ### Instructors
 | Professor           | Office | Email                    | Office Hours   |
 |---------------------|--------|--------------------------|----------------|
-| Dr. Omar Hammad     | 22-329 | omarjh@kfupm.edu.sa      |      MW 12:30-1:30       |
+| Dr. Omar Hammad     | 22-329 | omarjh@kfupm.edu.sa      |      SU 10:00-11:00       |
 | Dr. Hasan Al-Kaf    | 22-147 | hassan.alkaf@kfupm.edu.sa |      TBA              |
 | Dr. Khadijah Al Safwan| 22-330-1 | khadijah.safwan@kfupm.edu.sa |      MW 1:00-2:00       |
 

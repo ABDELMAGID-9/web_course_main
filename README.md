@@ -33,11 +33,10 @@ Hands-on coding demonstrations during class time (10% total grade):
 - 30-minute lab sessions with structured activities
 - GitHub practice and version control skills
 - All work must be completed during class time
+- See demos table at the bottom of the page
 
 ## Assignments
 TBD
-
-
 
 Detailed guidelines available [here](./in-lab-pasrticipation.md).
 
@@ -82,3 +81,11 @@ Complete project description available [here](./term_project.md).
 2. **Explore**: Navigate folders for course materials
 3. **Stay Updated**: Pull latest changes regularly
 
+
+# Demos table
+
+| Demo Title       | Idea                                | Link                        |
+|------------------|-------------------------------------|-----------------------------|
+| 1.1 Hello Web    | A sample full stack web app using Nodejs    | [View Demo](https://github.com/Web-Engineering-KFUPM/demo_1.1_hello_web) |
+| 1.2 Hello HTML   | A single HTML file with CSS & JS      | [View Demo](https://github.com/Web-Engineering-KFUPM/demo_1.2_hello_html)  |
+| 2.1 HTML Basics  | Basic HTML Elements and Structure      | [View Demo](https://classroom.github.com/a/XpMBPV7Q)  |
