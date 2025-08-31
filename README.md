@@ -88,3 +88,4 @@ Complete project description available [here](./term_project.md).
 |------------------|-------------------------------------|-----------------------------|
 | 1.1 Hello Web    | A sample full stack web app using Nodejs    | [View Demo](https://github.com/Web-Engineering-KFUPM/demo_1.1_hello_web) |
 | 1.2 Hello HTML   | A single HTML file with CSS & JS      | [View Demo](https://github.com/Web-Engineering-KFUPM/demo_1.2_hello_html)  |
+| 2.1 HTML Basics  | Basic HTML Elements and Structure      | [View Demo](https://classroom.github.com/a/XpMBPV7Q)  |
