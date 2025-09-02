@@ -8,7 +8,7 @@ Establish project teams and define the initial idea for your web application pro
 1. Group Formation:
    - Join a project group through the Blackboard Common Section.
    - Ensure all team members are in the same course section Or with the same instructor.
-   - Each group must consist of exactly 5 members.
+   - Each group must consist of 3-4 members. 
 
 2. Team Contract:
    - Once the group is formed, complete the Team Contract Form to define roles, responsibilities, and expectations within the team.
@@ -21,7 +21,7 @@ Establish project teams and define the initial idea for your web application pro
    - Align with the objectives of the course (Kindly check the [syllabus](https://github.com/hammadojh/web_course/blob/main/syllabus.md)). 
    - A brief description of your idea, consist of:
       - One/two paragraph, 100-150 words.
-      - At leat 5 main features except log in and register.
+      - At least (2*number of team members) features except log in and register.
       - Target users/audience of the application.
 
 4. Submission:
