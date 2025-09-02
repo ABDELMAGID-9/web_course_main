@@ -123,7 +123,7 @@ How:
  - Form Widgets
 
 Reference: 
-- Zybook: 2.6 to 2.7
+- Zybook: 2.5 to 2.9
 
 ---
 
