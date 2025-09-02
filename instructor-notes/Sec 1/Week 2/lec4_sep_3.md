@@ -89,7 +89,7 @@ footer: "SWE 363 | 251 | Sec 1 | KFUPM"
 Web Engineering & Development (SWE 363) 
 # 2.2 More HTML (Hypertext Markup Language) 
 ### Prepared By Dr. Omar Hammad
-### presented By Hasan Al-kaf
+### Presented By Hasan Al-kaf
 
 ---
 
@@ -195,7 +195,7 @@ Connect different pages together
 
 ---
 
-<!-- _class: center big-code -->
+<!-- _class: left big-code -->
 # Clean Code Example
 
 ```html
@@ -318,5 +318,3 @@ Starter code at: github.com/Web-Engineering-KFUPM/2.2_social_media_app
 
 # Next Class
 - Basics of CSS
-
----
