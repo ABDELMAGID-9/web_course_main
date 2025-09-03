@@ -73,14 +73,14 @@ How:
  - We allow teams of 4 but with higher expectations 
  - Inform us about your Github account: https://forms.office.com/r/HuvttUTp0A 
  - Graders assigned and will be looking into your code
-
+ - Welcome Qurrat Ul Ain Naheed to the team!
 
  ---
  # GitHub Classroom's Repository Push Issue: 
 Set Your Git Username and Email to Match GitHub
 ```
 git config --add --global user.name "Your GitHub Name"
-git config --add --global user.email "your_email@example.com"
+git config --add --global user.email "your_email@kfupm.edu.sa"
 ```
 **Why This Matters?**
 GitHub links commits to your account using the email in your Git config. If the email doesn’t match any email in your GitHub account, your commits won’t be linked to your profile 
@@ -298,7 +298,9 @@ name=John
 # Let's build a social media app
 
 
-Starter code at: github.com/Web-Engineering-KFUPM/2.2_social_media_app
+Starter code at: https://github.com/Web-Engineering-KFUPM/demo_2.2_social_app
+
+GitHub Classroom invite: https://classroom.github.com/a/uGuRT48H
 
 ---
 
