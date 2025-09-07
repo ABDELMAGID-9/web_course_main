@@ -43,118 +43,250 @@ style: |
     }
     section.center {text-align:center}
     section.big-code pre {font-size:2rem}
-footer: 'SWE 363 | 251 | Sec 1 | KFUPM'
----
-
+footer: 'SWE 363 | 251 | Sec 3 | KFUPM'
 ---
 
 Web Engineering & Development (SWE 363) 
-# 3.1 Using CSS in HTML
-### Hasan Al-kaf
+# 3.1 Intro to CSS
+### Dr. Omar Hammad
+### Presented by Hasan Al-kaf
 
 ---
 
 <!-- 
 
 By the end of this lecture, students will be able to:
-- Using CSS in HTML 
-- Basic selectors
-- Advanced selectors
-- Common properties
-- Font and text properties
+- Use Link, containers, and forms in HTML 
+- Links: Know relative path, surround images, use target
+- Containers: why, structure, meaning, block vs inline
+- Forms: why?, structure, GET vs POST
+- Form Widgets: Input, Select, Textarea, Button, checkboxes, radio buttons
+
+
+How: 
+- Build a simple page with links, containers, and forms in front of them and explain as you go 
 
  -->
 
  Announcements 📣
- - We allow teams of 4 but with higher expectations 
- - Graders assigned and will be looking into your code
-
+ - Reminder of the projects submissions 
+ - Github submission issues template 
 
  ---
 
  # In today's Lecture: 
 
-- Using CSS in HTML 
-- Basic selectors
-- Advanced selectors
-- Common properties
-- Font and text properties
+ - Review project ideas
+ - Do previous lab  
+ - Intro to CSS 
+ - Basic Selectors 
 
 Reference: 
-- Zybook: 3.1 to 3.5
-
-# 🎨 CSS Basics to Advanced – Lecture Notes
-
-Welcome to the **CSS Lecture Series** 🚀  
-This repo summarizes the key points from our slides on **Using CSS in HTML, Selectors, Properties, and Fonts/Text**.  
+- Zybook: 3.1 to 3.3
 
 ---
 
-## 📌 1. Using CSS in HTML :contentReference[oaicite:0]{index=0}
-CSS (**Cascading Style Sheets**) controls **how webpages look** across devices.  
+<!-- Goals of lecture:
 
-✅ **Ways to apply CSS**:
-- **Inline** – inside an element (`<p style="color:red">`).
-- **Embedded** – inside `<style>` in the `<head>`.
-- **External** – link to a `.css` file (best practice).
+- show them one website with multiple stylesheets 
+- explain the idea of CSS
+- where to put it ? inline, internal, external
 
-⚡ **Conflict Resolution**:
-- Inline > Embedded > External.  
-- Child > Parent.  
-- Specificity decides which rule wins.  
-- `!important` overrides everything (use sparingly).
+ -->
 
-🔍 **Tip:** Use Chrome DevTools to inspect & debug styles.
+# https://csszengarden.com/
 
 ---
 
-## 📌 2. Basic Selectors :contentReference[oaicite:1]{index=1}
-Selectors target **which HTML elements** get styled.
-
-- **Element Selector:** `p { color: blue; }`
-- **Class Selector:** `.notice { color: red; }`
-- **ID Selector:** `#title { font-size: 20px; }`
-
-### 👨‍👩‍👧 Relationships:
-- **Descendant:** `h2 em { color: blue; }`
-- **Pseudo-classes:**  
-  - `:hover` → when mouse hovers  
-  - `:nth-child(2)` → 2nd child  
-  - `:disabled` → disabled form element  
+# CSS Rule
+<!-- _class: big-code center-->
+```
+p { color: red };
+```
 
 ---
 
-## 📌 3. Advanced Selectors :contentReference[oaicite:2]{index=2}
-Level-up your targeting 🎯
-
-- **Universal:** `* { margin:0 }`
-- **Multiple:** `h1, h2 { color:red }`
-- **Child:** `div > p { ... }`
-- **Siblings:**  
-  - `h1 + p` → next sibling  
-  - `h1 ~ p` → all later siblings
-- **Attribute:** `a[target="_blank"] { ... }`
-- **Pseudo-elements:** `p::first-line`, `p::before`
+## More rules
+```
+p { 
+    color: crimson; 
+    font-size: 16px; 
+    line-height: 1.5;
+}
+h1 { 
+    color: navy; 
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+ul { 
+    color: forestgreen; 
+    font-weight: normal;
+    list-style-type: square;
+}
+```
 
 ---
 
-## 📌 4. Common Properties :contentReference[oaicite:3]{index=3}
-### 🎨 Colors
-- Named: `blue`, `white`, `black`  
-- RGB: `rgb(0,0,255)`  
-- HEX: `#0000ff`  
-- HSL: `hsl(240,100%,50%)`  
-- Transparency: `rgba(...)`, `hsla(...)`
+<!-- _class: boxes -->
 
-### 🖼️ Backgrounds
-- `background-color`, `background-image`, shorthand `background`
+# Where to put it ?
+```
+<!-- inline -->
+<p style="color: red; font-size: 16px;">This is a paragraph</p>
+```
 
-### 📦 Layout Helpers
-- **float:** move elements left/right  
-- **clear:** stop floating around elements  
-- **display:**  
-  - `block`, `inline`, `inline-block`, `none`  
-- **CSS Variables:**  
-  ```css
-  :root { --main-color: red; }
-  h1 { color: var(--main-color); }
+```
+<!-- internal -->
+<style>
+    p { color: red; font-size: 16px; }
+</style>
+```
+
+```
+<!-- external -->
+<link rel="stylesheet" href="styles.css">
+
+```
+
+---
+
+<!-- _class: center-->
+
+# Who wins?
+
+---
+
+<!-- _class: center-->
+
+### who wins?
+# The more specific wins
+
+---
+
+<!-- _class: activity -->
+
+>Board activity: What will the color of each sentence be?
+
+```html
+<style>
+p    { color:orange; }
+span { color:green; }
+</style>
+
+<p>
+    Part of this sentence is orange,
+    <span>while the rest is green.</span>
+</p>
+
+<p>
+    Part of this sentence is orange,
+    <span style="color:blue">while the rest is blue.</span>
+</p>
+
+<p style="color:red">
+    This sentence is red.
+</p>
+```     
+
+---
+
+# But !important overrides everything
+
+```
+<style>
+p    { color:orange !important; }
+span { color:green; }
+</style>
+<p style="color:red">
+    This sentence was red. But orange overrides it.
+</p>
+```
+
+---
+
+
+
+# How can we select elements?
+analyze the following code and tell what is the selection pattern
+
+- tag: p, span, h1, div
+- id: #main
+- class: .highlight
+- group: p, span, h1, div
+- universal: *
+
+---
+
+<!-- _class: activity -->
+
+> Board activity: Analyze the following code and tell what is the selection pattern
+
+
+```css
+<style>
+    #main { color: red; }
+    .highlight { color: blue; }
+    p { color: green; }
+    span { color: yellow; }
+    h1 { color: purple; }
+    div { color: orange; }
+    * { color: black; }
+    p, span, h1, div { color: brown; }
+</style>
+```
+```html
+<div>
+<h1 id="main">This is a heading</h1>
+<p>This is a paragraph</p>
+<p class="highlight">This is a highlighted paragraph</p>
+<h2 class="highlight">This is a highlighted paragraph</p>
+</div>
+```
+
+---
+
+# A bit advanced selectors
+decendant, psudo-class
+
+- decendant: ```p span``` 
+- psudo-class: ```:hover```
+
+---
+
+<!-- _class: activity -->
+
+> Board activity: Analyze the following code and tell what is the selection pattern
+
+```css
+<style>
+    p { color: blue; }
+    p span { color: red; }
+    button:hover { color: green; }
+</style>
+```
+```html
+<div>
+    <span>there</span>
+</div>
+<p>
+    Hello <span>there</span>
+</p>
+<button>Click me</button>
+```
+
+---
+
+<!-- _class: demo -->
+>30m
+# Let's practice CSS selectors
+
+Starter code at: demos/Chapter 1/1.3 css selectors/
+
+---
+
+# Next Class
+- Common properties
+- Fonts 
+- Box Model
+- Flexbox
