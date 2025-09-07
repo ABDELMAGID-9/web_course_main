@@ -156,7 +156,7 @@ Connect different pages together
 
 ---
 
-<!-- _class: center big-code -->
+<!-- _class: big-code -->
 # Clean Code Example
 
 ```html
