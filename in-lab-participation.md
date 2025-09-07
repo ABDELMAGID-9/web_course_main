@@ -88,3 +88,51 @@ This assignment is **not graded** but highly recommended for students with limit
 
 ## Conclusion
 Active participation in lab sessions is crucial for mastering web development. Approach each session with enthusiasm and curiosity. The skills developed here will serve as the foundation for your future web development endeavors.
+
+
+---
+
+## GitHub Classroom Troubleshooting (Quick Guide)
+
+1) Verify correct GitHub account
+- Use the GitHub account registered with your KFUPM email (the one linked in Classroom).
+- If unsure, ask your instructor which email is registered.
+
+2) Clear browser authentication
+- Sign out of all GitHub accounts in your browser.
+- Clear cache, cookies, and saved logins.
+- Log in again with your KFUPM-registered account.
+- If still blocked, try Incognito/Private Mode or a different browser.
+
+3) Access the lab link
+- Open the provided GitHub Classroom link.
+- If successful, create a fork of the repository and copy the fork URL.
+
+4) Clone your fork
+```bash
+git clone <fork_link>
+```
+
+5) Make changes and prepare commit
+```bash
+git status
+git add .
+git commit -m "Your commit message"
+```
+
+6) Fix push/commit issues
+- If `git push` fails, set your Git identity (must match a registered GitHub email):
+```bash
+git config --global user.name "Your GitHub Name"
+git config --global user.email "your_kfupm_email@example.com"
+```
+
+7) Push changes
+```bash
+git push origin main
+```
+
+8) If problems persist
+- Confirm you’re using the GitHub account tied to Classroom.
+- Re-authenticate GitHub on your computer (log out/in, reset credentials).
+- Ask the instructor/TA to confirm your account mapping in GitHub Classroom.

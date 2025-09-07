@@ -43,14 +43,14 @@ style: |
     }
     section.center {text-align:center}
     section.big-code pre {font-size:2rem}
-footer: 'SWE 363 | 251 | Sec 3 | KFUPM'
+footer: 'SWE 363 | 251 | Sec F04 | KFUPM'
 ---
 
----
 
 Web Engineering & Development (SWE 363) 
 # 2.2 More HTML (Hypertext Markup Language) 
-### Dr. Omar Hammad
+### Created by: Dr. Omar Hammad
+### Lectured by: Dr. Khadijah Al Safwan
 
 ---
 
@@ -71,11 +71,21 @@ How:
 
  Announcements 📣
  - We allow teams of 4 but with higher expectations 
+ - Inform us about your Github account: https://forms.office.com/r/HuvttUTp0A 
  - Graders assigned and will be looking into your code
-
+ - Welcome Qurrat Ul Ain Naheed to the team!
 
  ---
+ # GitHub Classroom's Repository Push Issue: 
+Set Your Git Username and Email to Match GitHub
+```
+git config --add --global user.name "Your GitHub Name"
+git config --add --global user.email "your_email@kfupm.edu.sa"
+```
+**Why This Matters?**
+GitHub links commits to your account using the email in your Git config. If the email doesn’t match any email in your GitHub account, your commits won’t be linked to your profile 
 
+ ---
  # In today's Lecture: 
 
  - Links
@@ -142,9 +152,28 @@ Connect different pages together
 
 <!-- _class: center big-code -->
 # Messy Code Example
-
+<!-- _class: left -->
 ```html
-<html><head><title>My Page</title></head><body><h1>Welcome</h1><p>This is a paragraph with no spacing or proper indentation making it very hard to read and maintain</p><div><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul></div><a href="link.html">Click here</a><img src="image.jpg" alt="image"><script>function doSomething(){var x=1;var y=2;var result=x+y;return result;}</script></body></html>
+<html>
+    <head>
+        <title>My Page</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <p>This is a paragraph with no spacing or proper indentation making it very hard to read and maintain</p>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <a href="link.html">Click here</a><img src="image.jpg" alt="image">
+        <script>
+            function doSomething(){var x=1;var y=2;var result=x+y;return result;}
+        </script>
+    </body>
+</html>
 ```
 
 ---
@@ -156,25 +185,23 @@ Connect different pages together
 
 ---
 
-<!-- _class: big-code -->
+<!-- _class: center big-code -->
 # Clean Code Example
 
+<!-- _class: left -->
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
 </head>
 <body>
     <header>
         <h1>Welcome</h1>
     </header>
-    
     <main>
         <p>This is a paragraph with proper spacing and indentation, making it easy to read and maintain.</p>
-        
         <section class="content">
             <ul>
                 <li>Item 1</li>
@@ -182,11 +209,9 @@ Connect different pages together
                 <li>Item 3</li>
             </ul>
         </section>
-        
         <a href="link.html">Click here</a>
         <img src="image.jpg" alt="Descriptive image text">
     </main>
-
 </body>
 </html>
 ```
@@ -251,7 +276,7 @@ POST /process_form.php
 name=John
 ```
 
-## Server Response
+<!-- ## Server Response -->
 
 ---
 
@@ -273,11 +298,11 @@ name=John
 # Let's build a social media app
 
 
-Starter code at: github.com/Web-Engineering-KFUPM/2.2_social_media_app
+Starter code at: https://github.com/Web-Engineering-KFUPM/demo_2.2_social_app
+
+GitHub Classroom invite: https://classroom.github.com/a/uGuRT48H
 
 ---
 
 # Next Class
 - Basics of CSS
-
----
