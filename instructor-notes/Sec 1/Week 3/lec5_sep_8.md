@@ -48,7 +48,7 @@ footer: 'SWE 363 | 251 | Sec 1 | KFUPM'
 
 Web Engineering & Development (SWE 363) 
 # 3.1 Intro to CSS
-### Dr. Omar Hammad
+### Prepared by Dr. Omar Hammad
 ### Presented by Hasan Al-kaf
 
 ---
