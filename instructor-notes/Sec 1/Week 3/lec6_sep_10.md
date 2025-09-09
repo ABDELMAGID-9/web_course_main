@@ -111,6 +111,16 @@ https://www.raycast.com
 
 # Box model 
 
+```
+div {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid red;
+}
+
+/* Default box-sizing: content-box */
+```
+
 ---
 
 # Flexbox 
