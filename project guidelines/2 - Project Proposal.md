@@ -32,14 +32,11 @@ Your submission must include the following slides:
   - At least three distinct types of users (three roles) who will interact with your application.
 - Functionalities for Each User Type:
   - Provide a list of key functionalities each user type can perform (e.g., "Admins can delete user accounts", "Admins can edit the user accounts information", "Users can browse and purchase items", etc.).
-  - For each role needs to have `1 x number of people in your team` functionally. For example, if your team consist of 5 people then each role needs to have at leat 5 functionalities. If they are 6 then you must have 6 functionalities for each role.
+  - For each role needs to have `2 x number of people in your team` functionally. For example, if your team consist of 5 people then each role needs to have at leat 5 functionalities. If they are 6 then you must have 6 functionalities for each role.
   - Note: you can review the well-known concept in software engineering, which is **use case**.
-- Storyboard Sketch (Application wirefeame with context):
+- Storyboard Sketch ([See example](https://www.nngroup.com/articles/storyboards-visualize-ideas/)):
   - Imagine a real use case where your solution will solve a real world problem.
-  - Use figma to build a basic wireframes .
-  - At least 5 wireframes of main functionalities are provided. If your team consist of 4 people then provide minimum 4 wireframes, and same goes for 6 people need to provide at least 6 wireframes.
-  - It's fine if the initial wireframe doesn't reflect 100% of your final work, but you need to make it as similar as possible.
-  - Put the wireframes in a storyboard (google ux storyboards to see examples) 
+  - Think of the different steps the user will take in your system to achive their goal
 
 ### 3. Submission Guidelines:
 - Upload your PowerPoint file as PDF via Blackboard under the designated submission area.
@@ -54,14 +51,6 @@ Your submission must include the following slides:
 
 - **What is an acceptable scope for the project, in terms of ideas?**
 Something useful that covers the basic web concepts and requires ~100 hours to complete (collectively by all members)
-
-- **Can you provide an example of what the wireframes should look like?**
-  - There is no one way to do wireframes, but if they google wireframes, they will find various approaches. In general, a good wireframe should:
-    1. Visually represent the structure of a page or screen without focusing on the final look.
-    2. Include the placement of key elements, such as headers, buttons, forms, images, and navigation menus.
-    3. Keep things simple by focusing on functionality and layout rather than design details like color or fonts.
-    4. Provide an idea of how the user interacts with the interface, showing the path they will follow.
-    5. Label all elements clearly so that both designers and developers understand what each element is.
 
 ## 📊 Grading Rubric:
 The submission will be graded out of 100 points, divided as follows:
