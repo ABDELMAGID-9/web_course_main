@@ -118,16 +118,16 @@ div {
   border: 5px solid red;
 }
 
-/* Default box-sizing: content-box */
+/* Default box-sizing: content-box 
+  box-sizing: border-box;
+
+*/
 ```
 
 ---
-
 # Flexbox 
-
 ---
- <img src="img/flex.jpg" alt="Css flex" width="500">
-
+ <img src="img/flex.jpg" alt="Css flex" >
 ---
 
 <!-- _class: demo -->
