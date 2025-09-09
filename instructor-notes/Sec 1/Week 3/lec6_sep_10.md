@@ -126,9 +126,12 @@ div {
 
 ---
 # Flexbox 
+
+
+ <img src="img/flex.jpg" alt="Css flex">
+
 ---
- <img src="img/flex.jpg" alt="Css flex" >
----
+
 
 <!-- _class: demo -->
 
