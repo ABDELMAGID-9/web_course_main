@@ -126,6 +126,7 @@ div {
 # Flexbox 
 
 ---
+ <img src="img/flex.jpg" alt="Css flex" width="500">
 
 ---
 
