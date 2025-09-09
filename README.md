@@ -91,3 +91,4 @@ Complete project description available [here](./term_project.md).
 | 2.1 HTML Basics  | Basic HTML Elements and Structure      | [View Demo](https://classroom.github.com/a/XpMBPV7Q)  |
 | 2.2 More HTML | Links, Containers and Forms | [View Demo](https://classroom.github.com/a/uGuRT48H) |
 | 3.1 CSS Basics | Using CSS, Selectors | [View Demo](https://classroom.github.com/a/AmqNvXqN) |
+| 3.2 More CSS | Variables, Flexbox & Positioning | [View Demo](https://classroom.github.com/a/UgtyIKLp) |
