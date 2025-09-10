@@ -7,8 +7,6 @@ Develop and present a well-defined project proposal that outlines your team's we
 
 ### 1. Define/Review the Project Idea:
 - Based on the previous milestone submission, finalize your team idea that addresses a real-world problem and provides meaningful value to its users.
-- Review your idea from this file https://kfupmedusa.sharepoint.com/:x:/s/SWE363TAsGraders-Project/EYQTF1KoK_9DhB9uw0DJNzEBg_cUS7HlZarjGKOmRdTBgw?e=sO2ec5
-- If your idea is highlighted (yellow, orange, blue, .. etc) it means that you need to do some changes to make it unique
 - The idea must be:
   - Showing the creativity and innovation (no need to be 100% new things that have never existed before).
   - Realistic: Ensure it can be developed within the semester's timeline using the tools and technologies taught in this course.
