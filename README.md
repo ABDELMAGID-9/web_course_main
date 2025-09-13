@@ -92,3 +92,4 @@ Complete project description available [here](./term_project.md).
 | 2.2 More HTML | Links, Containers and Forms | [View Demo](https://classroom.github.com/a/uGuRT48H) |
 | 3.1 CSS Basics | Using CSS, Selectors | [View Demo](https://classroom.github.com/a/AmqNvXqN) |
 | 3.2 More CSS | Variables, Flexbox & Positioning | [View Demo](https://classroom.github.com/a/UgtyIKLp) |
+| 4.1 JS Basics | Variables, operations, conditions, loops, arrays | [View Demo](https://classroom.github.com/a/do3A9tGZ) |
