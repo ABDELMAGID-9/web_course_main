@@ -1,5 +1,7 @@
 console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:bold; font-size:14px");
-
+//ABDELMAGID OSMAN
+//201837680
+//MISTAKENLY I PUSHED IT FIRST ON AN OPEN ACCOUNT
 // ==========================
 // TODO-2: SYNTAX & VARIABLES
 // ==========================
